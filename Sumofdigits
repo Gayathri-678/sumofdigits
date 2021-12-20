@@ -9,8 +9,9 @@ int sum_of_digit(int n)
 int main()
 {
     int num;
+    printf("Input number:");
     scanf("%d",&num);
     int result = sum_of_digit(num);
-    printf("Sum of digits is : %d", result);
+    printf("Sum of digits : %d", result);
     return 0;
 }
